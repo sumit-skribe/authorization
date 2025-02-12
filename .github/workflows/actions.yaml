@@ -46,8 +46,8 @@ jobs:
 
       - name: Configure git for the action
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "sumit.skribe@gmail.com"
+          git config --local user.name "Sumit"
 
       - name: Stash unstaged changes
         run: git stash --include-untracked
