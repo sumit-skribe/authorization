@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: adijaiswal/Node-JS
+          images: sumit0skribe/authorization
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
