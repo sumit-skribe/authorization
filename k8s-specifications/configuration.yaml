@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: authorization
-    image: sumit0skribe/authorization:sha-a3839a5
+    image: sumit0skribe/authorization:sha-b0df537
     imagePullPolicy: Always
     ports:
     - containerPort: 3000
