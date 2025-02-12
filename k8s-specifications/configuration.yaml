@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: sumit0skribe/authorization:sha-58ea15b
+        image: sumit0skribe/authorization:sha-d90d382
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
